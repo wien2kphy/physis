@@ -507,7 +507,7 @@ export default function App() {
               <div className="space-y-4">
                 <div className="w-full aspect-square rounded bg-[#050505] overflow-hidden border border-white/10 relative group">
                   <img
-                    src="/src/assets/images/dr_mahanta_faculty_1779804026606.png"
+                    src="/src/assets/images/burhan_photo.jpeg"
                     alt="Dr. A. Mahanta"
                     className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -521,8 +521,8 @@ export default function App() {
                 </div>
 
                 <div className="space-y-1 text-left align-left">
-                  <h3 className="text-xl font-bold uppercase italic tracking-tight text-white">Dr. A. Mahanta</h3>
-                  <p className="text-xs font-mono text-cyan-400 tracking-[0.05em] uppercase">// PhD, Theoretical Physics • 18+ years teaching experience</p>
+                  <h3 className="text-xl font-bold uppercase italic tracking-tight text-white">Dr. Burhan Ahmed</h3>
+                  <p className="text-xs font-mono text-cyan-400 tracking-[0.05em] uppercase">// PhD, Condensed Matter Physics</p>
                 </div>
 
                 <p className="text-xs text-slate-400 leading-relaxed text-left align-left">
