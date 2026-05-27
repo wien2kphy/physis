@@ -59,7 +59,7 @@ export default function ContactForm() {
           <div className="space-y-2">
             <h4 className="text-xl font-bold uppercase italic text-white">Message Transmitted!</h4>
             <p className="text-sm text-slate-400 max-w-sm font-sans">
-              Thank you for contacting PHYSIS Institute. Dr. Mahanta or our admissions desk will reply to your email shortly.
+              Thank you for contacting PHYSIS Institute, our admissions desk will reply to your email shortly.
             </p>
           </div>
           <button
