@@ -507,8 +507,8 @@ export default function App() {
               <div className="space-y-4">
                 <div className="w-full aspect-square rounded bg-[#050505] overflow-hidden border border-white/10 relative group">
                   <img
-                    src="/src/assets/images/burhan_photo.jpeg"
-                    alt="Dr. A. Mahanta"
+                    src="/src/images/burhan_photo.jpeg"
+                    alt="Dr. Burhan Ahmed"
                     className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
