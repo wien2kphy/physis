@@ -163,7 +163,7 @@ export default function App() {
                   PHYSIS
                 </div>
                 <div className="text-[8px] font-mono tracking-widest text-[#22d3ee] -mt-0.5 uppercase">
-                  PATHWAY TO SUCCESS
+                  FROM CONCEPT TO CONFIDENCE
                 </div>
               </div>
             </div>
