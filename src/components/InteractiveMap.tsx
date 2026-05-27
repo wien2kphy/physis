@@ -18,8 +18,8 @@ interface Landmark {
 const landmarks: Landmark[] = [
   {
     id: 'physis',
-    name: 'PHYSIS Institute (Beltola Tiniali)',
-    description: 'Premier Physics Academy & Coaching Hub. Concept-first pedagogy, classroom sessions & academic mentoring.',
+    name: 'PHYSIS',
+    description: 'Premier Physics Academy & Coaching Hub.',
     coords: { x: 580, y: 350 },
     isPhysis: true,
   },
