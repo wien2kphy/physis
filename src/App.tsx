@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import burhanPhoto from "./images/burhanphoto.jpeg";
+import burhanphoto from "./images/burhanphoto.jpeg";
 import {
   Atom,
   BookOpen,
