@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import burhanPhoto from "./images/burhanphoto.jpeg";
 import {
   Atom,
   BookOpen,
@@ -507,7 +508,7 @@ export default function App() {
               <div className="space-y-4">
                 <div className="w-full aspect-square rounded bg-[#050505] overflow-hidden border border-white/10 relative group">
                   <img
-                    src="/src/images/burhan_photo.jpeg"
+                    src={burhanphoto}
                     alt="Dr. Burhan Ahmed"
                     className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
