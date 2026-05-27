@@ -502,7 +502,7 @@ export default function App() {
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             
-            {/* Dr. Mahanta Spotlight Card */}
+            {/* Dr. Burhan Spotlight Card */}
             <div className="lg:col-span-5 bg-[#08080a] border border-white/10 rounded-lg p-6 glow-card transition-all duration-300 relative overflow-hidden h-full flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="w-full aspect-square rounded bg-[#050505] overflow-hidden border border-white/10 relative group">
