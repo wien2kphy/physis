@@ -374,7 +374,7 @@ export default function App() {
               className="inline-flex items-center gap-2 px-4 py-1.5 rounded-sm bg-cyan-500/10 border border-cyan-500/20 text-[11px] font-mono text-cyan-400 tracking-[0.2em] uppercase italic"
             >
               <Sparkles className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
-              Premier Physics Institute — Est. 2018
+              Premier Physics Institute — Est. 2020
             </motion.div>
 
             {/* Giant Title */}
@@ -393,7 +393,7 @@ export default function App() {
                 transition={{ delay: 0.2 }}
                 className="text-sm sm:text-base font-mono text-cyan-400 tracking-[0.4em] uppercase block italic"
               >
-                // Pathway to Success
+                // From Concept To Confidence
               </motion.h2>
             </div>
 
