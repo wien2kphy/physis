@@ -844,7 +844,7 @@ export default function App() {
 
           <div className="text-center pt-10">
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@amiburu"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 px-6 py-2.5 rounded border border-white/10 hover:border-cyan-500/55 bg-[#08080a] text-cyan-400 hover:text-cyan-300 text-xs font-mono font-bold uppercase tracking-wider transition"
