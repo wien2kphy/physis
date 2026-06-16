@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import physislogoweb from "./images/physislogoweb"; 
+import physislogoweb from "./images/physislogoweb.png"; 
 import burhanphoto from "./images/burhanphoto.jpeg";
 import {
   Atom,
