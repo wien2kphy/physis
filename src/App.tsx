@@ -381,14 +381,19 @@ export default function App() {
 
             {/* Giant Title */}
             <div className="space-y-4">
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="text-8xl sm:text-9xl md:text-[11rem] font-black italic tracking-tighter text-white leading-[0.85] uppercase drop-shadow-[0_0_45px_rgba(6,182,212,0.1)]"
-              >
-                PHYSIS
-              </motion.h1>
+              <motion.div
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.6 }}
+    className="flex justify-center"
+  >
+    <img
+      src={physislogoweb}
+      alt="PHYSIS Logo"
+      className="h-48 sm:h-56 md:h-72 w-auto object-contain"
+    />
+  </motion.div>
+
               <motion.h2
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
