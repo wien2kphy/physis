@@ -1193,7 +1193,7 @@ export default function App() {
                   <div className="space-y-1">
                     <span className="text-[10px] font-mono text-white/30 uppercase tracking-[0.1em] block font-bold">// Address</span>
                     <p className="text-xs text-slate-300 leading-normal">
-                      PHYSIS Institute, Beltola Tiniali, Guwahati 781028, Assam, India.
+                      Main Road, Badarpur, Near Petrol Pump, 788806, Assam, India.
                     </p>
                   </div>
                 </div>
@@ -1206,7 +1206,7 @@ export default function App() {
                   <div className="space-y-1">
                     <span className="text-[10px] font-mono text-white/30 uppercase tracking-[0.1em] block font-bold">// Phone</span>
                     <p className="text-xs text-slate-300 font-semibold">
-                      +91 98765 43210
+                      +91 8638101940
                     </p>
                     <p className="text-[9px] font-mono text-white/30 block">Syllabus Batches Enquiry</p>
                   </div>
@@ -1220,7 +1220,7 @@ export default function App() {
                   <div className="space-y-1">
                     <span className="text-[10px] font-mono text-white/30 uppercase tracking-[0.1em] block font-bold">// Email</span>
                     <p className="text-xs text-slate-300 hover:text-cyan-400 font-semibold transition break-all leading-none pb-1">
-                      admissions@physis.edu
+                      wien2khelp@gmail.com
                     </p>
                     <p className="text-[9px] font-mono text-white/30 block">Research Consultations</p>
                   </div>
