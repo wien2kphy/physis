@@ -311,17 +311,15 @@ export default function InteractiveMap() {
           </div>
 
           <div className="pt-4 border-t border-white/10">
-            <button
-              onClick={() => setSelectedLandmark(landmarks[0])}
-              className={`w-full py-2.5 px-4 rounded text-xs font-mono font-bold uppercase tracking-wider transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer ${
-                selectedLandmark.isPhysis
-                  ? 'bg-cyan-500 text-white hover:bg-cyan-400'
-                  : 'bg-white/5 hover:bg-white/10 text-cyan-400 border border-white/10 hover:border-cyan-500/30'
-              }`}
-            >
-              <MapPin className="w-4 h-4" />
-              Focus on PHYSIS Hub
-            </button>
+           <a
+  href="https://maps.app.goo.gl/NUUg3NESRjv3GCib7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full py-2.5 px-4 rounded text-xs font-mono font-bold uppercase tracking-wider bg-cyan-500 text-white hover:bg-cyan-400 transition-all duration-300 flex items-center justify-center gap-2"
+>
+  <MapPin className="w-4 h-4" />
+  Open PHYSIS Location
+</a>
           </div>
         </div>
       </div>
