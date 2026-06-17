@@ -24,9 +24,9 @@ const landmarks: Landmark[] = [
     isPhysis: true,
   },
   {
-    id: 'gauhati_univ',
-    name: 'Gauhati University',
-    description: 'Major academic partner & research university, providing source curriculum and library references.',
+    id: 'NC College',
+    name: 'Nabinchandra College',
+    description: 'Premier Degree College under Assam University, Silchar.',
     coords: { x: 120, y: 180 },
   },
   {
@@ -37,22 +37,10 @@ const landmarks: Landmark[] = [
   },
   {
     id: 'railway',
-    name: 'Guwahati Railway Station',
-    description: 'Core central transit terminal, linking scholars commuting from towns across Assam.',
+    name: 'Badarpur Railway Station',
+    description: 'Core central transit terminal, linking scholars commuting from towns across Barak Valley.',
     coords: { x: 420, y: 280 },
   },
-  {
-    id: 'iit_g',
-    name: 'IIT Guwahati',
-    description: 'Elite technical university providing academic motivation and scientific guest lectures.',
-    coords: { x: 210, y: 90 },
-  },
-  {
-    id: 'dispur',
-    name: 'Dispur Secretariat',
-    description: 'State capital administrative quarter, located minutes away from Beltola campus.',
-    coords: { x: 540, y: 300 },
-  }
 ];
 
 export default function InteractiveMap() {
