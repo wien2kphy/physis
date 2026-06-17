@@ -25,15 +25,9 @@ const landmarks: Landmark[] = [
   },
   {
     id: 'NC College',
-    name: 'Nabinchandra College',
+    name: 'NC_College',
     description: 'Premier Degree College under Assam University, Silchar.',
     coords: { x: 120, y: 180 },
-  },
-  {
-    id: 'kamakhya',
-    name: 'Kamakhya Temple Hill',
-    description: 'Iconic historical hill temple, defining landmark overlooking the magnificent Brahmaputra.',
-    coords: { x: 280, y: 220 },
   },
   {
     id: 'railway',
@@ -53,7 +47,7 @@ export default function InteractiveMap() {
       <div className="px-6 py-4 border-b border-white/10 flex flex-wrap justify-between items-center bg-[#050505] gap-4">
         <div className="flex items-center gap-2">
           <Compass className="w-5 h-5 text-cyan-400" />
-          <h3 className="font-mono text-white text-sm font-bold uppercase tracking-wider">// Guwahati Campus Locator</h3>
+          <h3 className="font-mono text-white text-sm font-bold uppercase tracking-wider">// Badarpur Campus Locator</h3>
         </div>
         <div className="flex items-center gap-4">
           <span className="text-[10px] font-mono uppercase tracking-wider text-white/40 hidden sm:inline">Theme Profile:</span>
@@ -109,7 +103,7 @@ export default function InteractiveMap() {
                 fill="rgba(255,255,255,0.15)"
                 className="font-mono text-[9px] tracking-[0.2em] uppercase select-none font-bold"
               >
-                Brahmaputra River
+                Barak River
               </text>
 
               {/* Major Roads (Grid Lines) */}
@@ -122,7 +116,7 @@ export default function InteractiveMap() {
                 strokeDasharray="4 4"
               />
               <text x="440" y="270" fill="rgba(255,255,255,0.2)" className="text-[8px] font-mono tracking-wider rotate-[20deg]">
-                GS ROAD
+                Main Road
               </text>
 
               {/* Beltola Road linking to PHYSIS */}
@@ -133,7 +127,7 @@ export default function InteractiveMap() {
                 strokeWidth="3"
               />
               <text x="460" y="325" fill="rgba(6,182,212,0.3)" className="text-[8px] font-mono rotate-[15deg]">
-                BELTOLA RD
+                Main Road, Badarpur
               </text>
 
               {/* NH-37 Bypass */}
@@ -145,7 +139,7 @@ export default function InteractiveMap() {
                 strokeDasharray="8 4"
               />
               <text x="210" y="375" fill="rgba(255,255,255,0.2)" className="text-[8px] font-mono">
-                NH-37 BYPASS
+                NH-6 (Old NH-44)
               </text>
 
               {/* Connections line from physis to selected */}
